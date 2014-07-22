@@ -100,7 +100,7 @@ html {
 	width: 100%;
 	content: "";
 	display: block;
-	clear: both;
+	clear: both;b
 }
 .clear {
 	width: 100%;
@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight:normal;
 }
 h1 {	font-size: 36px; line-height:42px; margin:30px 0 20px 0; }
-h2 {	font-size: 24px; line-height:30px; margin:20px 0 16px 0; }
+h2 {	font-size: 20px; line-height:30px; margin:20px 0 16px 0; }
 h3 {	font-size: 18px; line-height:24px; margin:16px 0 14px 0; }
 h4 {	font-size: 16px; line-height:20px; margin:14px 0 12px 0; }
 h5 {	font-size: 14px; line-height:18px; margin:12px 0 10px 0; font-weight:bold; }
@@ -499,7 +499,7 @@ iframe {
 /* Header
 -------------------------------------------------------------- */
 header {
-	padding-bottom:28px;
+	/*padding-bottom:28px;*/
 }
 #header_top_inner {
 	margin:0 auto;
@@ -2586,6 +2586,10 @@ article ul li:before,
 
 
 /* Footer sidebar */
+
+#footer {
+	padding-top: 40px;
+}
 #footer_sidebar {
 	overflow:hidden;
 	margin-top:30px;
