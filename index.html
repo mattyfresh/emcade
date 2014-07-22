@@ -1202,5 +1202,27 @@
 	<script type="text/javascript" src="js/jquery/ui/jquery.ui.widget.min.js"></script>
 	<script type="text/javascript" src="js/jquery/ui/jquery.ui.mouse.min.js"></script>
 	<script type="text/javascript" src="js/jquery/ui/jquery.ui.draggable.min.js"></script>
+
+	<script type="text/javascript">
+
+$ = jQuery;
+
+function getLatest() {
+
+	$.getJSON("http://emcade-projdevtest.rhcloud.com/api/latest", populate);
+
+	}
+
+
+function populate(params) {
+
+		for(i in params) {
+			
+					console.log(params[i]);
+
+			}
+		}
+
+	</script>
 </body>
 </html>
