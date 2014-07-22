@@ -1209,7 +1209,7 @@ $ = jQuery;
 
 function getLatest() {
 
-	$.getJSON("http://emcade-projdevtest.rhcloud.com/api/latest", populate);
+	$.getJSON("http://emcade-projdevtest.rhcloud.com/api/latest?callback=?", populate);
 
 	}
 
@@ -1218,7 +1218,8 @@ function populate(params) {
 
 		for(i in params) {
 			
-					console.log(params[i]);
+					// console.log(params[i]);
+					$('.post_descr p:nth('+i+')').html(params[i]['keyword']);
 
 			}
 		}
